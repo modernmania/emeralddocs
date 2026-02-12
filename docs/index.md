@@ -1,4 +1,6 @@
 # Emerald Documentation
+  **Welcome** to the documentation for the Emerald programming language!
+  [GitHub](https://github.com/GemCreative/Emerald)
 
 ## 1. Installation
 
