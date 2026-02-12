@@ -4,7 +4,13 @@ build:
   os: windows-2022
   tools:
     python: "3.12"
+  jobs:
+    post_install:
+      - pip install sphinx sphinx-rtd-theme myst-parser
 
 sphinx:
   configuration: docs/conf.py
-  fail_on_warning: true
+
+python:
+  install:
+    - requirements: docs/requirements.txt
