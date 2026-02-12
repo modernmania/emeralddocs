@@ -5,6 +5,7 @@ author = 'Gem Creative'
 
 extensions = [
     'myst_parser',
+    'sphinx_copybutton',
 ]
 
 html_theme = 'furo'
