@@ -7,5 +7,19 @@
 :caption: Getting Started
 
 installation
+gettingstarted
 basics
+types
+variables
+expressions
+strings
+statements
+controlflow
+functions
+truthiness
+scoping
+errors
+limitations
+examples
+ending
 ```
