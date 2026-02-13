@@ -1,24 +1,13 @@
-## 2. Getting Started
+## 3. Getting Started
 
-### File Types
+Use the command line to create, build, and run Emerald programs.
 
-- Source file: `.emer`
-- Compiled bytecode file: `.emec`
+Quick flow:
 
-### CLI
+- Create a source file: `emerald touch hello.emer`
+- Build it: `emerald build hello.emer`
+- Run it: `emerald run hello.emec` or `emerald run hello.emer`
+- Or do both at once: `emerald shine hello.emer`
 
-From `src/`:
-
-```powershell
-go run main.go build ..\examples\hello.emer
-go run main.go run ..\examples\hello.emer
-go run main.go run ..\examples\hello.emec
-```
-
-You can also build `main.go` into a binary and run the same commands:
-
-```powershell
-emerald build file.emer
-emerald run file.emer
-emerald run file.emec
-```
+For full command details, see `commandline.md`.
+For source/compiled format details, see `filetypes.md`.

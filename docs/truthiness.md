@@ -1,4 +1,4 @@
-## 12. Truthiness
+## 13. Truthiness
 
 Falsy values:
 
@@ -6,7 +6,7 @@ Falsy values:
 - `false`
 - `0`
 - `""`
-- `[]`
-- `{}`
+- empty list `[]`
+- empty dict `{}`
 
 Everything else is truthy.

@@ -1,4 +1,4 @@
-## 1. Installation
+## Installation
 
 Install both binaries from the official releases page:
 

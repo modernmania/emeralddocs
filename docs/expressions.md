@@ -1,4 +1,4 @@
-## 6. Expressions
+## 8. Expressions
 
 ### Literals
 
@@ -19,33 +19,31 @@ null
 
 Notes:
 
-- `+` supports int addition, string concatenation, list concatenation.
+- `+` supports int addition, string concat, list concat.
 - `/` is integer division.
 
 ### Indexing
 
 ```emer
 var xs = [10, 20, 30]
-print(xs[0])     # 10
-print(xs[-1])    # 30
+print(xs[0])
+print(xs[-1])
 
 var d = dict("name", "emerald")
-print(d["name"]) # emerald
+print(d["name"])
 
 var s = "hello"
-print(s[1])      # e
+print(s[1])
 ```
 
 ### Slicing
 
-Works on lists and strings:
-
 ```emer
 var xs = [1, 2, 3, 4]
-print(xs[1:3])   # [2, 3]
-print(xs[:2])    # [1, 2]
-print(xs[2:])    # [3, 4]
+print(xs[1:3])
+print(xs[:2])
+print(xs[2:])
 
 var s = "hello"
-print(s[1:4])    # ell
+print(s[1:4])
 ```

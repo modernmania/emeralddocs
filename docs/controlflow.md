@@ -1,4 +1,4 @@
-## 9. Control Flow
+## 11. Control Flow
 
 ### if / else if / else
 
@@ -40,7 +40,5 @@ for(item in xs) {
 
 ### Loop control
 
-```emer
-brk   # break
-cont  # continue
-```
+- `brk`
+- `cont`

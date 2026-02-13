@@ -1,4 +1,4 @@
-## 8. Statements
+## 10. Statements
 
 ### print
 
@@ -7,17 +7,15 @@ print("Hello")
 print(1 + 2)
 ```
 
-### input
-
-Modern forms:
+### input / read
 
 ```emer
 var a = input()
 var b = input("Name: ")
-var c = read("Prompt: ")  # alias
+var c = read("Prompt: ")
 ```
 
-Legacy form is still accepted:
+Legacy form supported:
 
 ```emer
 input(plc("Name: "))
@@ -26,12 +24,10 @@ input(plc("Name: "))
 ### wait
 
 ```emer
-wait(500)  # milliseconds
+wait(500)
 ```
 
 ### check
-
-Fails at runtime if expression is falsy:
 
 ```emer
 check 1 == 1

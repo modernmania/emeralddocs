@@ -1,6 +1,6 @@
-## 5. Variables
+## 7. Variables
 
-### Single Declaration
+### Single declarations
 
 ```emer
 var a = 10
@@ -9,7 +9,7 @@ var name(str) = "Ada"
 var empty
 ```
 
-### Block Declaration
+### Block declarations
 
 ```emer
 var {
@@ -26,7 +26,7 @@ var x = 1
 x = x + 10
 ```
 
-Index assignment is supported:
+Index assignment:
 
 ```emer
 var xs = [1, 2, 3]

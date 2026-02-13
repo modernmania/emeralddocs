@@ -1,6 +1,6 @@
-## 4. Types
+## 6. Types
 
-Emerald runtime values:
+Runtime value kinds:
 
 - `int`
 - `string`
@@ -9,13 +9,11 @@ Emerald runtime values:
 - `list`
 - `dict`
 
-Type annotations are optional but supported in `var` declarations and function params/returns.
-
-Supported type names:
+Supported type names in declarations:
 
 - `int`
-- `str` or `string`
+- `str` / `string`
 - `bool`
 - `null`
 - `list`
-- `dict` or `table`
+- `dict` / `table`

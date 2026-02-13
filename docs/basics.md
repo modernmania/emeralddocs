@@ -1,15 +1,15 @@
-## 3. Syntax Basics
+## 5. Syntax Basics
 
-- Line-oriented statements.
-- Blocks use braces `{ ... }`.
-- Comments start with `#` or `--`.
-- Strings use single quotes `'text'` or double quotes `"text"`.
-- Identifiers: letters/underscore first, then letters/digits/underscore.
+- Statements are line-oriented.
+- Blocks use `{ ... }`.
+- Comments begin with `#` or `--`.
+- Strings use `'text'` or `"text"`.
+- Identifiers: letter/underscore first, then letters/digits/underscore.
 
 Example:
 
 ```emer
-# this is a comment
+# comment
 var name = "Emerald"
 print(name)
 ```

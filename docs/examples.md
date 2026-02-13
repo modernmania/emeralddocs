@@ -1,4 +1,4 @@
-## 16. Examples
+## 19. Example Program
 
 ```emer
 var nums = [1, 2, 3, 4]
@@ -9,19 +9,4 @@ for(n in nums) {
 }
 
 print(f"squares = {squares}")
-
-fnc findFirstBig(xs(list), threshold(int)) (int) {
-  for(v in xs) {
-    if(v > threshold) {
-      return v
-    }
-  }
-  return -1
-}
-
-print(findFirstBig(squares, 10))
-```
-
-```emer
-print("Hello world!")
 ```

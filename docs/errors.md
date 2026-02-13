@@ -1,8 +1,6 @@
-## 14. Errors and Traceback
+## 16. Errors and Traceback
 
-Runtime failures include traceback with function and line numbers.
-
-Example output:
+Runtime failures include traceback frames with function + line:
 
 ```text
 Runtime error: division by zero

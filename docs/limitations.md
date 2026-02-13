@@ -1,7 +1,9 @@
-## 15. Current Limitations
+## 18. Limitations
 
-- No floating-point type (only int).
-- No `<=` / `>=`.
-- No object/module import system yet.
-- No classes/struct runtime model yet.
-- Dict iteration via `for-in` is not specialized yet; prefer `for(k in keys(dictVal))`.
+Current language/runtime limits:
+
+- No float type (int only)
+- No `<=` or `>=`
+- No module/import system
+- No classes/structs
+- Dict iteration is not specialized; use `keys(dict)` in `for-in`
