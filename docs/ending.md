@@ -1,6 +1,6 @@
 ## 20. Where to mine from here
 
-There is so much more to do with Emerald! Share projects, make them, and have fun.
+  This is only the beginning of your journey with Emerald, and there is so much more to do!
 
 ### Social Links
 
